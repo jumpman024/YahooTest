@@ -43,6 +43,12 @@ public class HistoricalPage {
     @FindBy (xpath = "//div[@class='Pos(a) Px(20px) Pt(12px) Pb(20px) Mstart(40px) Z(10) Bgc(#fff) Bd Bdc($c-fuji-grey-c) Bdrs(2px) Bxsh($boxShadow) W(195px)']//input[@class='Bdrs(0) Bxsh(n)! Fz(s) Bxz(bb) D(ib) Bg(n) Pend(5px) Px(8px) Py(0) H(34px) Lh(34px) Bd O(n):f O(n):h Bdc($c-fuji-grey-c) Bdc($c-fuji-blue-1-b):f M(0) Pstart(10px) Bgc(white) W(90px) Mt(5px) Mstart(15px)']")
     private WebElement endDate;
 
+    @FindBy (xpath = "//*[@id=\"Col1-1-HistoricalDataTable-Proxy\"]/section/div[1]/div[1]/div[3]/span/div")
+    private WebElement frequency;
+
+    @FindBy (xpath = "//*[@id=\"Col1-1-HistoricalDataTable-Proxy\"]/section/div[1]/div[1]/div[3]/span/div[2]/div[2]")
+    private WebElement weekly;
+
 
 
 
@@ -81,23 +87,15 @@ public class HistoricalPage {
         startDate.sendKeys(Keys.DELETE);
 
         startDate.sendKeys("6/10/2019");
-        //startDate.sendKeys("6/16/2019");
         return this;
     }
 
-    public HistoricalPage moveToEndDate(){
-        Actions actions = new Actions(driver);
-        actions.moveToElement(endDate).perform();
-        endDate.click();
-        return this;
-    }
 
     public HistoricalPage inputEndDate(){
         endDate.sendKeys(Keys.CONTROL + "a");
         endDate.clear();
 
         endDate.sendKeys("6/16/2019");
-        //startDate.sendKeys("6/16/2019");
         return this;
     }
 
@@ -106,14 +104,14 @@ public class HistoricalPage {
        return elementValue;
     }
 
-    public void numOfColomn(){
-        //WebDriver driver = new ChromeDriver();
+    public HistoricalPage frequencyClick(){
+        frequency.click();
+        return this;
+    }
 
-        int index = 0;
-        WebElement baseTable = driver.findElement(By.xpath("//table[@class='W(100%) M(0)']"));
-        List<WebElement> tableRows = baseTable.findElements(By.tagName("td"));
-        tableRows.get(index).getText();
-        System.out.println(tableRows.get(index).getText());
+    public HistoricalPage weeklyClick(){
+        weekly.click();
+        return this;
     }
 
 

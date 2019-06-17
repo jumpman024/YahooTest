@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.HistoricalPage;
 
-import java.util.concurrent.TimeUnit;
+
 
 
 public class HistoricalPageTest extends BaseTest {
@@ -49,30 +49,9 @@ public class HistoricalPageTest extends BaseTest {
 
     }
 
-    @Test (description = "This test confirms the display of actual information about stock value after changing the Time Period filter usingStart Date and End Date.")
+
+    @Test (description = "This test confirms that input Start Date and End Date is changable and editable.")
     public void testCase3(){
-       // boolean actualTableIsDisplayed =
-                historicalPage.timePeriodClick()
-                .inputStartDate()
-                .moveToEndDate()
-                .inputEndDate();
-                //.doneButtonClick()
-               // .applyButtonClick()
-                //.tableIsDisplayed();
-        try
-        {
-            Thread.sleep(5000);
-        }
-        catch(InterruptedException e)
-        {
-            // this part is executed when an exception (in this example InterruptedException) occurs
-        }
-        //Assert.assertTrue(actualTableIsDisplayed);
-
-    }
-
-    @Test
-    public void testCase4(){
         String expectedInputValue = "Jun 10, 2019 - Jun 16, 2019";
         String actualInputValue = historicalPage.timePeriodClick()
                 .inputStartDate()
@@ -89,6 +68,28 @@ public class HistoricalPageTest extends BaseTest {
             // this part is executed when an exception (in this example InterruptedException) occurs
         }
         Assert.assertEquals(actualInputValue,expectedInputValue);
+
+    }
+
+    @Test (description = "This test confirms Frequency tab filter is actually working")
+    public void testCase4(){
+        boolean actualTableIsDisplayed = historicalPage.timePeriodClick()
+                .inputStartDate()
+                .inputEndDate()
+                .doneButtonClick()
+                .frequencyClick()
+                .weeklyClick()
+                .applyButtonClick()
+                .tableIsDisplayed();
+        try
+        {
+            Thread.sleep(5000);
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
+        Assert.assertTrue(actualTableIsDisplayed);
 
     }
 

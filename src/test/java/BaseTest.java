@@ -42,13 +42,13 @@ public abstract class BaseTest {
     }
 
 
-    //@AfterMethod
+    @AfterMethod
     public void cleanup() {
-//        if (driver != null) {
-//            driver.manage().deleteAllCookies();
-//            TestHelper.sleep5Seconds();
+        if (driver != null) {
+            driver.manage().deleteAllCookies();
+            TestHelper.sleep5Seconds();
             driver.close();
         }
     }
-//}
+}
 

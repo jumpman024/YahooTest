@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="817e090b-26cc-4a17-a423-1b358a6eb68e" name="Default Changelist" comment="" />
+    <list default="true" id="817e090b-26cc-4a17-a423-1b358a6eb68e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HistoricalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HistoricalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HistoricalPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HistoricalPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HistoricalPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HistoricalPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HistoricalPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HistoricalPageTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,11 +21,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-242">
+            <state relative-caret-position="170">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
@@ -24,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+            <state relative-caret-position="289">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,12 +46,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HistoricalPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+            <state relative-caret-position="1496">
+              <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2667#2668#0" expanded="true" />
-                <element signature="e#2709#2710#0" expanded="true" />
+                <element signature="e#3469#3470#0" expanded="true" />
+                <element signature="e#3511#3512#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,17 +60,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="4403">
               <caret line="300" column="31" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/HistoricalPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="680">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -94,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="272">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,22 +131,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/TestHelper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test.properties" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/HistoricalPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HistoricalPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/TestHelper.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="7" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
+    <option name="y" value="14" />
     <option name="width" value="934" />
     <option name="height" value="1146" />
   </component>
@@ -136,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,6 +204,13 @@
               <item name="YahooTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="YahooTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YahooTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YahooTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,11 +224,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560717823039" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560758081137" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,23 +243,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HistoricalPageTest.testCase3">
+  <component name="RunManager" selected="TestNG.HistoricalPageTest.testCase2">
     <configuration name="HistoricalPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="YahooTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HistoricalPageTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HistoricalPageTest.testCase1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="YahooTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HistoricalPageTest" />
-      <option name="METHOD_NAME" value="testCase1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -272,13 +290,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HistoricalPageTest.testCase5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YahooTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HistoricalPageTest" />
+      <option name="METHOD_NAME" value="testCase5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HistoricalPageTest.testCase3" />
-        <item itemvalue="TestNG.HistoricalPageTest.testCase4" />
         <item itemvalue="TestNG.HistoricalPageTest.testCase2" />
         <item itemvalue="TestNG.HistoricalPageTest" />
-        <item itemvalue="TestNG.HistoricalPageTest.testCase1" />
+        <item itemvalue="TestNG.HistoricalPageTest.testCase5" />
+        <item itemvalue="TestNG.HistoricalPageTest.testCase3" />
+        <item itemvalue="TestNG.HistoricalPageTest.testCase4" />
       </list>
     </recent_temporary>
   </component>
@@ -296,90 +326,90 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 20h 45m 44s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 38m 23s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 20h 46m 14s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 39m 35s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 20h 46m 37s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 40m 34s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 20h 46m 56s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 41m 21s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 20h 52m 58s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 42m 26s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 20h 55m 03s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 42m 54s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 21h 06m 35s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase5 - 2019.06.17 at 10h 45m 05s.xml">
+      <configuration name="HistoricalPageTest.testCase5" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 21h 10m 33s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest - 2019.06.17 at 10h 49m 58s.xml">
+      <configuration name="HistoricalPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 21h 10m 55s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest - 2019.06.17 at 10h 51m 19s.xml">
+      <configuration name="HistoricalPageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HistoricalPageTest_testCase3 - 2019.06.16 at 21h 11m 56s.xml">
-      <configuration name="HistoricalPageTest.testCase3" configurationId="TestNG" />
+    <history-entry file="HistoricalPageTest_testCase2 - 2019.06.17 at 10h 52m 04s.xml">
+      <configuration name="HistoricalPageTest.testCase2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="6" width="934" height="1146" extended-state="0" />
+    <frame x="8" y="14" width="934" height="1146" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25400457" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2597254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32971373" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32971373" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971373" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32971373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32971373" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32971373" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4403">
+          <caret line="300" column="31" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YahooTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="272">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -387,49 +417,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/HistoricalPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="300" column="31" selection-start-line="300" selection-start-column="31" selection-end-line="300" selection-end-column="31" />
+        <state relative-caret-position="680">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/HistoricalPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+        <state relative-caret-position="1496">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2667#2668#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
+            <element signature="e#3511#3512#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HistoricalPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/TestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
